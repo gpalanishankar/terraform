@@ -29,10 +29,10 @@ resource "aws_instance" "web" {
     name = "web"
   }
 }
-data "aws_key_pair" "web" {
+/*data "aws_key_pair" "web" {
   key_name           = var.key_name
   include_public_key = true
-}
+}*/
 output "web-key" {
   value = data.aws_key_pair.web.key_name
 }
