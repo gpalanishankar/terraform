@@ -2,10 +2,10 @@ provider "aws" {
   region = var.region
 }
 
-resource "aws_key_pair" "web-key" {
+/*resource "aws_key_pair" "web-key" {
   key_name   = var.key_name
   public_key = file("/root/.ssh/terraform-key.pub")
-}
+}*/
 
 resource "aws_instance" "web" {
   ami                  = var.ami
