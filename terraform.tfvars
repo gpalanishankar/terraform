@@ -1,0 +1,13 @@
+region               = "ap-south-1"
+ami                  = "ami-09b0a86a2c84101e1"
+instance_type        = "t2.micro"
+volume_size          = "8"
+iam_instance_profile = "AWS_SSM_ROLE"
+availability_zone    = "ap-south-1a"
+key_name             = "terraform"
+vpc-cidr             = "10.0.0.0/16"
+public-1-subnet      = "10.0.1.0/24"
+public-2-subnet      = "10.0.2.0/24"
+private-1-subnet     = "10.0.10.0/24"
+private-2-subnet     = "10.0.11.0/24"
+
