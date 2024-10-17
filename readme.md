@@ -2,8 +2,7 @@
 
 ## Content
 
-* Terraform Scripts for ec2 provsion and Jenkins install on it.
-* Jenkins Install scripts
+* Terraform Scripts for ec2 provsion.
 * README.md
 
 Using these scripts you can automate the provision of Jenkins master on AWS EC2 instance.
